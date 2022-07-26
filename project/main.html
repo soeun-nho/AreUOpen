@@ -15,20 +15,26 @@
             <button  onclick="start()">시작하기</button>
         </div>
         <div class="question">
+            <div> <!--몇번째 문항인지 숫자로 표현-->
+                <h1 class="q-num">Q1</h1>
+                <p class="progress-txt">1/12</p>
+            </div>
+            <div> <!--부트스트랩 프로그레스 바-->
+                <div class="progress-bar"></div>
+            </div>
             <h2 id="title">문제</h2>
             
             <input id="type" type="hidden" value="??">
             
-            <button id="A" type="button" onclick="next()">대답1</button>
-            <button id="B" type="button" onclick="next()">대답2</button>
+            <button id="A"  >대답1</button>
+            <button id="B"  >대답2</button>
         </div>
             
-            <input type="hidden" id="UD" value="0">
-            <input type="hidden" id="HS" value="0">
-            <input type="hidden" id="AT" value="0">
+        <input type="hidden" id="EI" value="0">
+        <input type="hidden" id="NS" value="0">
+        <input type="hidden" id="FT" value="0">
+        <input type="hidden" id="PJ" value="0">
          
-        <div class="result">
-            <h2>결과입니다</h2>
-        </div>
+        
     </body>
 </html>
