@@ -15,19 +15,20 @@ var q = { //문제 및 답변 내용
 
 //시작하기 누르면 시작페이지 사라지고 문제페이지 보임
 function start() {
-    $("#start").hide();
-    $("#question").show();
+    $(".start").hide();
+    $(".question").show();
     next();
 }
 
-//버튼 누르면 다음 문제 내용 불러오는 함수
+
+//다음 페이지 넘어가는 함수
 function next() { 
     if(num==10) {
         var mbti = ""; 
     
-      ($("#UD").val() < 2) ? mbti += "D" : mbti += "U";
-      ($("#HS").val() < 2) ? mbti += "S" : mbti += "H";
-      ($("#AT").val() < 2) ? mbti += "T" : mbti += "A";
+      ($("#UD").val() < 2) ? mbti += "0" : mbti += "1";
+      ($("#HS").val() < 2) ? mbti += "2" : mbti += "3";
+      ($("#AT").val() < 2) ? mbti += "4" : mbti += "5";
 
       window.location.href = mbti+".html";
     }
@@ -39,14 +40,15 @@ function next() {
         num++; 
     }
  }
- //답안 버튼 눌렀을 때
- $("#A").click(function () {
+
+//답변 누르면
+$("#A").click(function () {
     var type = $("#type").val();
     var preValue = $("#" + type).val();
     $("#" + type).val(parseInt(preValue) + 1);
     next();
-    
 });
 $("#B").click(function () {
     next();
 });
+
