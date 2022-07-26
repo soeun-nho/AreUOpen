@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>여행지 유형 테스트</title>
         <link rel="stylesheet" href="style.css">
         <script src="../jquery-3.6.0.js"></script>
         <script type="text/javascript" src="script.js"></script>
@@ -14,23 +15,16 @@
          </div>
          <div id="question">
             <div>
-                <h1>1번</h1>
-                <h3>나는 여행지에서</h3>
-                <button id="U">많이 걸어도 괜찮다</button>
-                <button id="D">힘들어...도보 20분 이상은 대중교통 이용한다</button>
+                <h2 id="title">1번 문제</h2>
+   
+                <input id="type" type="hidden" value="UD">
+   
+                <button id="A" type="button">대답 U</button>
+                <button id="B" type="button">대답 D</button>
             </div>
-            <div>
-                <h1>2번</h1>
-                <h3>나는 여행지에서</h3>
-                <button id="U">많이 걸어도 괜찮다</button>
-                <button id="D">힘들어...도보 20분 이상은 대중교통 이용한다</button>
-            </div>
-            <div>
-                <h1>3번</h1>
-                <h3>나는 여행지에서</h3>
-                <button id="U">많이 걸어도 괜찮다</button>
-                <button id="D">힘들어...도보 20분 이상은 대중교통 이용한다</button>
-            </div>
+            <input type="hidden" id="UD" value="0">
+            <input type="hidden" id="HS" value="0">
+            <input type="hidden" id="AT" value="0">
          </div>
          <div id="result">
             <h2>결과입니다</h2>
