@@ -9,81 +9,176 @@
     <body>
         <div id="start">
             <div class="p20">
-                <h1>여행지 테스트</h1>
+            <h3>
+                <strong>여행지 테스트 </strong>
+            <br/>
+            나에게 맞는 여행지는?</h3>
+            </div>
+            <div class="p60">
+                이미지
+            </div>
+            <div class="p20" id="p20btn">
+                <button onclick="start();">시작하기</button>
+            </div>  
+        </div>
+
+
+         <div id="q1">
+            <div class="p20">
+            <h3>
+            <strong>Q1</strong>/Q9
+            <br/>
+            여행지에 도착했을 때 나는
+            </h3>
+
+            </div>
+            <div class="p60">
+                <img src="https://cdn.pixabay.com/photo/2017/08/12/19/01/legs-2635038_960_720.jpg">
+                <img src="https://cdn.pixabay.com/photo/2017/10/27/10/27/subway-2893851_960_720.jpg">
             </div>
             <div class="p20">
-                <h3>나에게 맞는 여행지는?</h3>
-            </div>
-            <div id="img-box">
-                <img id="main-img" src="./img/dht.png">
-            </div>
-            <div class="p20">
-                <button  onclick="start();">시작하기</button>
-            </div>
-            
-         </div>
-         <section id="q">
-            <div id="q1">
-                <h1>Q1<em>/Q10</em></h1>
-                <h3>여행지에 도착했을 때 나는</h3>
-                <img src="./img/dht.png">
-                <button onclick="count('U')">많이 걸어다니는게 좋다</button><br>
+                <button onclick="count('U')">많이 걸어다니는게 좋다</button>
                 <button onclick="count('D')">교통이 편리한 곳이 좋다</button>
             </div>
-            <div id="q2">
-                <h1>2번</h1>
-                <h3>나는 여행지에 갔을 때 오후에도</h3>
-                <button onclick="count('U')">숙소에서 쉴 것이다. </button><br>
-                <button onclick="count('D')">놀러 나갈 것이다.</button>
-                
+        </div>
+
+        <div id="q2">
+            <div class="p20">
+                <h3><strong>Q2</strong>/Q9
+                    <br/>
+                    나는 여행지에 갔을 때 오후에도
+                </h3>
             </div>
-            <div id="q3">
-                <h1>3번</h1>
-                <h3>내가 좋아하는 음식은</h3>
-                <button onclick="count('U')">요즘 핫한 퓨전요리</button><br>
-                <button onclick="count('D')">전통 한식</button>
+            <div class="p60">
+                <img src="https://cdn.pixabay.com/photo/2018/01/06/18/40/relaxation-3065577_960_720.jpg">
+                <img src="https://cdn.pixabay.com/photo/2020/12/17/00/43/skyscrapers-5838029_960_720.jpg">
             </div>
+            <div class="p20">
+            <button onclick="count('U')">숙소에서 쉴 것이다. </button>
+            <button onclick="count('D')">놀러 나갈 것이다.</button>
+           </div>
+            
+        </div>
+        <div id="q3">
+            <div class="p20">
+                <h3>
+                    <strong>Q3</strong>/Q9<br/>
+                    내가 좋아하는 음식은
+                </h3>
+            </div>
+            
+            <div class="p60">
+                <img src="https://cdn.pixabay.com/photo/2016/03/05/01/45/seafood-pilaf-1237030_960_720.jpg">
+                <img src="https://cdn.pixabay.com/photo/2020/02/28/12/43/bibimbap-4887417_960_720.jpg">
+            </div>
+            <div class="p20">
+                <button onclick="count('D')">요즘 핫한 퓨전요리</button>
+                <button onclick="count('U')">전통 한식</button>
+            </div>
+        </div>
             <div id="q4">
-                <h1>4번</h1>
-                <h3>나는 여행지에서 웨이팅을 기다릴 수 (    )</h3>
-                <button onclick="count('H')">있다.</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q4</strong>/Q9<br/>
+                        나는 여행지에서 웨이팅을 기다릴 수 (    )
+                    </h3>
+                </div>
+                <div class="p60">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/12/16/43/people-2943117_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2021/09/20/22/15/hourglass-6641967_960_720.png">
+                </div>
+                <div class="p20">
+                <button onclick="count('H')">있다.</button>
                 <button onclick="count('S')"> 없다. </button>
-               
+                </div>
             </div>
+
             <div id="q5">
-                <h1>5번</h1>
-                <h3>내가 요즘 가고 싶은 곳은...</h3>
-                <button onclick="count('H')">핫한 곳</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q5</strong>/Q9<br/>
+                        내가 요즘 가고 싶은 곳은...
+                    </h3>
+                </div>
+                <div class="p60">
+                    <img src="https://cdn.pixabay.com/photo/2020/09/25/10/10/phone-5600986_960_720.png">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/20/20/51/reading-5069826_960_720.jpg">
+                    
+                </div>
+                <div class="p20">
+                <button onclick="count('H')">핫한 곳</button>
                 <button onclick="count('S')">나만 아는 곳</button>
-                
+                </div>
             </div>
+
             <div id="q6">
-                <h1>6번</h1>
-                <h3>나는 사람 많은 곳은</h3>
-                <button onclick="count('H')">좋다</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q6</strong>/Q9<br/>
+                        나는 사람 많은 곳은
+                    </h3>
+                </div>
+                <div class="p60">
+                      
+                    <img src="https://cdn.pixabay.com/photo/2019/07/30/08/44/mosque-4372296_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2021/10/26/14/07/thumbs-down-6744093_960_720.jpg">
+                </div>
+                <div class="p20">
+                <button onclick="count('H')">좋다</button>
                 <button onclick="count('S')">피곤하다</button>
-               
+                </div>
             </div>
+
             <div id="q7">
-                <h1>7번</h1>
-                <h3>나는 밥은</h3>
-                <button onclick="count('A')">혼자 먹는게 편하다</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q7</strong>/Q9<br/>
+                        나는 밥은
+                    </h3>
+                    </div>
+                <div class="p60">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/06/04/00/people-2588537_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2021/11/11/16/06/women-6786612_960_720.jpg">
+                </div>
+                <div class="p20" id="btn">
+                <button onclick="count('A')">혼자 먹는게 편하다</button>
                 <button onclick="count('T')">같이 먹는 게 좋다</button>
-               
+                </div>
             </div>
+
             <div id="q8">
-                <h1>8번</h1>
-                <h3>나는 여행지에 도착했을 때</h3>
-                <button onclick="count('A')">천천히 구경하고 싶다.</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q8</strong>/Q9<br/>
+                        나는 여행지에 도착했을 때</h3>
+                        </div>
+                <div class="p60">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/14/04/43/boy-1822631_960_720.jpg">
+                </div>
+                <div class="p20">
+                <button onclick="count('A')">천천히 구경하고 싶다.</button>
                 <button onclick="count('T')">친구들과 빨리 다음 장소로!</button>
-               
+                </div>
             </div>
             <div id="q9">
-                <h1>9번</h1>
-                <h3>나는 인생샷은</h3>
-                <button onclick="count('A')">필요없다</button><br>
+                <div class="p20">
+                    <h3>
+                        <strong>Q9</strong>/Q9</br/>
+                        나는 인생샷은</h3>
+                        </div>
+                <div class="p60">
+                    <img src="https://cdn.pixabay.com/photo/2018/08/16/21/06/selfie-3611467_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/29/12/18/camera-1869430_960_720.jpg">
+                </div>
+                <div class="p20">
+                <button onclick="count('A')">필요없다</button>
                 <button onclick="count('T')">필수!</button>
+                </div>
+                
             </div>
-         </section>
+            
+            
+         </div>
     </body>
 </html>

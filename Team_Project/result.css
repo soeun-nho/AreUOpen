@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'HS-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    text-align: center;
+    font-family: 'HS-Regular';
+    font-weight: lighter;
+    margin:10px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.p20{
+    border: solid red;
+    height: 10%;
+    /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
+    display: table;
+    text-align: center;
+}
+#explain{
+    display:table-cell;
+    vertical-align:middle;
+}
+.p40{
+    border: solid red;
+    height: 20%;
+    /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
+    display: table; 
+    text-align: center;
+}
+.p70{
+    border: solid blue;
+    height:  70%;
+    
+}
+.p70 img {
+    height: 80%;
+    width: auto;
+}
+#good_and_bad img{
+    height: 65%;
+    width: auto;
+}
+#good_and_bad article {
+    width: 40%;
+    height: 90%;
+   
+    border: solid blue;
+    display: inline-block;
+}
