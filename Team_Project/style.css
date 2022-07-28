@@ -1,33 +1,9 @@
 
-#q1{
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9{
     display: none;
 }
-#q2{
-    display: none;
-}
-#q3{
-    display: none;
-}
-#q4{
-    display: none;
-}
-#q5{
-    display: none;
-}
-#q6{
-    display: none;
-}
-#q7{
-    display: none;
-}
-#q8{
-    display: none;
-}
-#q9{
-    display: none;
-}
-#res{
-    display: none;
+html {
+    height: 100%;
 }
 @font-face {
     font-family: 'HS-Regular';
@@ -39,4 +15,24 @@
     text-align: center;
     font-family: 'HS-Regular';
     font-weight: lighter;
+    height: 700px;
+}
+.p20 {
+    background-color: yellow;
+    height: 10%;
+    margin: 0%;
+}
+
+.p20 button {
+    height: 60%;
+    margin: 1%;
+    width: 30%;
+}
+#img-box {
+    height: 70%;
+    background-color: gray;
+}
+#main-img{
+    object-fit: cover;
+    height:100%;
 }
