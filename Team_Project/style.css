@@ -29,6 +29,10 @@ html{
     display: table;
     text-align: center;
 }
+.p20 h3{
+    display:table-cell;
+    vertical-align:middle;
+}
 .p60{
     display: inline-block;
     border: solid blue;
@@ -37,12 +41,14 @@ html{
 strong{
     font-size: 40px;
 }
-.p20 button{
+.p20 button {
+    display: inline-block;
     height: 50%;
-    width: 100%;
-    padding: 1%;
-    inline-size: 40%;
+    width: 40%;
+}
+#start button{
+    height: 50%;
+    width: 70%;
     font-size:large;
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
 }
