@@ -26,9 +26,6 @@ html{
 .p20{
     border: solid red;
     height: 20%;
-    
-}
-#p20btn {
     display: table;
     text-align: center;
 }
@@ -40,9 +37,11 @@ html{
 strong{
     font-size: 40px;
 }
-#p20btn button{
+.p20 button{
     height: 50%;
     width: 100%;
+    padding: 1%;
+    inline-size: 40%;
     font-size:large;
     display: table-cell;
     vertical-align: middle;
