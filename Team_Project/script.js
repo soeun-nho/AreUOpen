@@ -32,4 +32,3 @@ function count(choice){
     if(choice=='A') { AT++; }
     next();
 }
-
