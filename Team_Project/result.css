@@ -5,14 +5,14 @@
     font-weight: normal;
     font-style: normal;
 }
-@media ( max-width: 768px ) {
+/* @media ( max-width: 768px ) {
     .good_and_bad {
         display: inline-block;
     }
-    .good_and_bad article{
-        display: inline-block;
+    *{
+        background-color: red;
     }
-  }
+  } */
 * {
     text-align: center;
     font-family: 'HS-Regular';
@@ -32,8 +32,8 @@
 /* 유형 결과 */
 .p80{
     background-color: #FAF3E3;
-    height:  49%;
-    padding: 1%;
+    height:  39%;
+    padding: 2%;
     text-align: center;
     padding-bottom: 0%;
 }
@@ -51,7 +51,7 @@ strong {
     /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
     display: table;
     text-align: center;
-    padding: 1%;
+    padding: 2%;
     padding-top: 0%;
 }
 #explain{
@@ -62,18 +62,20 @@ strong {
 .good_and_bad {
     background-color: #FAF3E3;
     height: 33%;
+    
     padding: 2%;
+    display: inline-block;
 }
 .good_and_bad article{
-    display: inline-block;
-    width: 40%;
+    text-align: center;
+    width: auto;
     height: 90%;
     background-color: #FAF3E3;
     /* border: solid black; */
 }
 .good_and_bad img{
-    height: 65%;
-    width: 40%;
+    height: 50%;
+    width: auto;
 }
 footer {
     height: 5%;
