@@ -10,13 +10,24 @@
     font-family: 'HS-Regular';
     font-weight: lighter;
     margin:0;
+    padding: 0;
     height: 100%;
     width: 100%;
+}
+.title {
+    height: 5%;
+    padding: 1%;
+    background-color: #1A4D2E;
+    font-size: 30px;
+    color: #FAF3E3;
 }
 /* 유형 결과 */
 .p80{
     background-color: #FAF3E3;
-    height:  80%;
+    height:  60%;
+    padding: 1%;
+    text-align: center;
+    padding-bottom: 0%;
 }
 .p80 img {
     height: 80%;
@@ -28,10 +39,12 @@ strong {
 /* 해당 유형 설명 */
 .p20{
     background-color: #FAF3E3;
-    height: 20%;
+    height: 15%;
     /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
     display: table;
     text-align: center;
+    padding: 1%;
+    padding-top: 0%;
 }
 #explain{
     display:table-cell;
@@ -39,14 +52,16 @@ strong {
 }
 /* 추천, 비추천 여행지 */
 .good_and_bad {
-    border: solid red;
+    background-color: #FAF3E3;
     height: 50%;
+    padding: 2%;
 }
 .good_and_bad article{
     display: inline-block;
     width: 40%;
     height: 90%;
-    border: solid blue;
+    background-color: #FAF3E3;
+    /* border: solid black; */
 }
 .good_and_bad img{
     height: 65%;
@@ -54,5 +69,11 @@ strong {
 }
 footer {
     height: 5%;
-    border: solid red;
+    background-color: #1A4D2E;
+    display: table;
+    text-align: center;
+}
+footer h5{
+    display:table-cell;
+    vertical-align:middle;
 }
