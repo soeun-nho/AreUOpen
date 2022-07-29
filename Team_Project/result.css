@@ -9,13 +9,13 @@
     text-align: center;
     font-family: 'HS-Regular';
     font-weight: lighter;
-    margin:10px;
+    margin:0;
     height: 100%;
     width: 100%;
 }
 /* 유형 결과 */
 .p80{
-    border: solid blue;
+    background-color: #FAF3E3;
     height:  80%;
 }
 .p80 img {
@@ -27,7 +27,7 @@ strong {
 }
 /* 해당 유형 설명 */
 .p20{
-    border: solid red;
+    background-color: #FAF3E3;
     height: 20%;
     /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
     display: table;
