@@ -15,42 +15,26 @@ html{
     text-align: center;
     font-family: 'HS-Regular';
     font-weight: lighter;
-    margin:0px;
+    margin:10px;
     height: 100%;
     width: 100%;  
-    
+    background-color: #FAF3E3;
 }
 .p60 img{
     height: 50%;
     width:auto;  
 }
-#title {
-    color: #1A4D2E;
-    display: table;
-    text-align: center;
-    background-color: #FAF3E3;
-}
-#title p{
-    display:table-cell;
-    vertical-align:middle;
-}
 .p20{
     height: 20%;
     display: table;
     text-align: center;
-    background-color: #FAF3E3;
-}
-.p20 h3{
-    background-color: #1A4D2E;
 }
 .p60{
     display: inline-block;
     height:  60%;
-    background-color: #FAF3E3;
 }
 strong{
     font-size: 40px;
-    
 }
 .p20 button{
     height: 50%;
@@ -60,5 +44,10 @@ strong{
     font-size:large;
     display: table-cell;
     vertical-align: middle;
-    background-color: #FAF3E3;
+    background-color:#1A4D2E;
+    color:#FAF3E3;
+}
+
+body strong{
+   color:#1A4D2E; 
 }
