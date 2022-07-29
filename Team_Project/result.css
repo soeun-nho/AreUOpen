@@ -5,6 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@media ( min-width: 768px ) {
+    .good_and_bad{
+        display: inline-block;
+        vertical-align:middle;
+    }
+  }
 * {
     text-align: center;
     font-family: 'HS-Regular';
