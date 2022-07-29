@@ -5,10 +5,15 @@
     font-weight: normal;
     font-style: normal;
 }
-@media ( min-width: 768px ) {
+@media ( max-width: 768px ) {
+    .good_and_bad {
+        height: 100%;
+    }
     .good_and_bad article{
         display: inline-block;
-        vertical-align:middle;
+    }
+    * {
+        background-color: red;
     }
   }
 * {
@@ -21,7 +26,7 @@
     width: 100%;
 }
 .title {
-    height: 5%;
+    height: 4%;
     padding: 1%;
     background-color: #1A4D2E;
     font-size: 30px;
@@ -30,13 +35,13 @@
 /* 유형 결과 */
 .p80{
     background-color: #FAF3E3;
-    height:  60%;
+    height:  49%;
     padding: 1%;
     text-align: center;
     padding-bottom: 0%;
 }
 .p80 img {
-    height: 80%;
+    height: 40%;
     width: auto;
 }
 strong {
@@ -45,7 +50,7 @@ strong {
 /* 해당 유형 설명 */
 .p20{
     background-color: #FAF3E3;
-    height: 15%;
+    height: 14%;
     /* 위아래 가운데 정렬하기 위해 부모에 넣어주는것 */
     display: table;
     text-align: center;
@@ -59,7 +64,7 @@ strong {
 /* 추천, 비추천 여행지 */
 .good_and_bad {
     background-color: #FAF3E3;
-    height: 50%;
+    height: 33%;
     padding: 2%;
 }
 .good_and_bad article{
