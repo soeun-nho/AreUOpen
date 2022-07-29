@@ -6,7 +6,7 @@
     font-style: normal;
 }
 @media ( min-width: 768px ) {
-    .good_and_bad{
+    .good_and_bad article{
         display: inline-block;
         vertical-align:middle;
     }
