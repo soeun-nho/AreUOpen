@@ -27,7 +27,6 @@
 }
 .title {
     height: 4%;
-    width: 100%;
     padding: 1%;
     background-color: #1A4D2E;
     font-size: 30px;
@@ -42,7 +41,7 @@
     padding-bottom: 0%;
 }
 .p80 img {
-    height: 40%;
+    height: 60%;
     width: auto;
 }
 strong {
@@ -77,7 +76,7 @@ strong {
 }
 .good_and_bad img{
     height: 65%;
-    width: auto;
+    width: 40%;
 }
 footer {
     height: 5%;
