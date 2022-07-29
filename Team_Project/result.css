@@ -7,14 +7,12 @@
 }
 @media ( max-width: 768px ) {
     .good_and_bad {
-        height: 100%;
+        display: inline-block;
     }
     .good_and_bad article{
         display: inline-block;
     }
-    * {
-        background-color: red;
-    }
+    
   }
 * {
     text-align: center;
