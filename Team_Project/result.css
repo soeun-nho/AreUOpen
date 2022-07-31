@@ -22,7 +22,7 @@
     font-weight: lighter;
     margin:0;
     padding: 0;
-    
+    height: 100%;
     width: 100%;
     background-color: #FAF3E3;
 }
@@ -32,7 +32,9 @@
     background-color: #1A4D2E;
     color: #FAF3E3;
 }
-
+strong {
+    font-size: 20px;
+}
 .p60 {
     height: 58%;
     padding-top: 2%;
