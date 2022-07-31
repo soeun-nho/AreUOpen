@@ -4,21 +4,22 @@
         <link rel="stylesheet" href="style.css">
         <script src="../jquery-3.6.0.js"></script>
         <script type="text/javascript" src="script.js"></script>
-        <title>여행지 유형 테스트</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
     <body>
-        <div>
+        <div id="start">
             <div class="p20">
-                <h3>
-                    <strong>여행지 테스트 </strong><br>
-                    나에게 맞는 여행지는?
-                </h3>
+            <h3>
+                <strong>여행지 테스트 </strong>
+            <br/>
+            나에게 맞는 여행지는?</h3>
             </div>
             <div class="p60">
-                이미지
+                <img src="https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727_960_720.jpg">
             </div>
-            <div id="start">
-                <button onclick="start();">시작하기</button>
+            <div class="p20">
+                <button  onclick="start();">시작하기</button>
             </div>  
         </div>
 
@@ -46,7 +47,7 @@
             <div class="p20">
                 <h3><strong>Q2</strong>/Q9
                     <br/>
-                    나는 여행지에 갔을 때 오후에도
+                    나는 여행지에 갔을 때 오후에는
                 </h3>
             </div>
             <div class="p60">
@@ -72,8 +73,8 @@
                 <img src="https://cdn.pixabay.com/photo/2020/02/28/12/43/bibimbap-4887417_960_720.jpg">
             </div>
             <div class="p20">
+                <button onclick="count('U')">전통한식</button>
                 <button onclick="count('D')">요즘 핫한 퓨전요리</button>
-                <button onclick="count('U')">전통 한식</button>
             </div>
         </div>
             <div id="q4">
@@ -119,8 +120,7 @@
                     </h3>
                 </div>
                 <div class="p60">
-                      
-                    <img src="https://cdn.pixabay.com/photo/2019/07/30/08/44/mosque-4372296_960_720.jpg">
+                    <img src="https://cdn.pixabay.com/photo/2018/10/09/06/47/istiklal-street-3734276_960_720.jpg">
                     <img src="https://cdn.pixabay.com/photo/2021/10/26/14/07/thumbs-down-6744093_960_720.jpg">
                 </div>
                 <div class="p20">
@@ -140,7 +140,7 @@
                     <img src="https://cdn.pixabay.com/photo/2017/08/06/04/00/people-2588537_960_720.jpg">
                     <img src="https://cdn.pixabay.com/photo/2021/11/11/16/06/women-6786612_960_720.jpg">
                 </div>
-                <div class="p20" id="btn">
+                <div class="p20">
                 <button onclick="count('A')">혼자 먹는게 편하다</button>
                 <button onclick="count('T')">같이 먹는 게 좋다</button>
                 </div>

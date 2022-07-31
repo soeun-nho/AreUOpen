@@ -3,7 +3,7 @@
     display: none;
 }
 html{
-    height: 100%;;
+    height: 100%;
 }
 @font-face {
     font-family: 'HS-Regular';
@@ -17,38 +17,37 @@ html{
     font-weight: lighter;
     margin:10px;
     height: 100%;
-    width: 100%;
+    width: 100%;  
+    background-color: #FAF3E3;
 }
 .p60 img{
     height: 50%;
     width:auto;  
 }
 .p20{
-    border: solid red;
     height: 20%;
     display: table;
     text-align: center;
 }
-.p20 h3{
-    display:table-cell;
-    vertical-align:middle;
-}
 .p60{
     display: inline-block;
-    border: solid blue;
     height:  60%;
 }
 strong{
     font-size: 40px;
 }
-.p20 button {
-    display: inline-block;
+.p20 button{
     height: 50%;
-    width: 40%;
-}
-#start button{
-    height: 50%;
-    width: 70%;
+    width: 100%;
+    padding: 1%;
+    inline-size: 40%;
     font-size:large;
-    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color:#1A4D2E;
+    color:#FAF3E3;
+}
+
+body strong{
+   color:#1A4D2E; 
 }
