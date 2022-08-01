@@ -5,14 +5,15 @@
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (min-width: 768px) {
-    .p20 {
-        height: 20%;
-        display: inline-block;
+@media screen and (max-width: 768px) {
+    #good_and_bad{
+        clear: both;
+        padding: 5%;
+        padding-left: 25%;
     }
-    .p20 div {
-        display: inline-block;
-        width: 100%;
+    .p20 {
+        text-align: center;
+        height: 100%;
     }
   }
 * {
@@ -29,8 +30,11 @@
     height: 4%;
     padding-top: 1%;
     background-color: #1A4D2E;
+    color: #FAF3E3;
 }
-
+strong {
+    font-size: 20px;
+}
 .p60 {
     height: 58%;
     padding-top: 2%;
@@ -46,9 +50,10 @@
     height: 20%;
     display: inline-block;
 }
-.p20 div {
-    display: inline-block;
+#good_and_bad{
+    float: left;
     width: 40%;
+    margin: 5%;
 }
 .p20 img {
     height: 100%;
