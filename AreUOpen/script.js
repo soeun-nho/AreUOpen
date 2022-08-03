@@ -1,7 +1,7 @@
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
         mapOption = { 
             center: new naver.maps.LatLng(37.606850, 127.042372), // 지도의 중심좌표
-            level: 3 // 지도의 확대 레벨
+            level: 300// 지도의 확대 레벨
         };
 
 var map = new naver.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
